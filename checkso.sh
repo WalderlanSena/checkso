@@ -5,7 +5,7 @@
 # License: MIT <https://opensource.org/licenses/MIT>
 # Github: WalderlanSena <https://www.github.com/WalderlanSena>
 # Site: Mentes Virtuais Sena <https://www.mentesvirtuaissnea.com>
-
+# TODO Script ainda não faz o calculo de decremento dos pacotes no momento da verificação
 
 # --- Inicio do script ---
 
