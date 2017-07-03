@@ -46,3 +46,11 @@ if [ $valorSO -eq 64  ]
  echo "[-] Sistema Operacional : aproximadamente - GNU/Linux"
 fi
 ```
+
+<br/>
+
+### :warning: Obs:
+Também é válido resaltar que a cada vez que um pacote passa por um roteador, o mesmo decrementa 2 no valor do TTL, Sendo assim o valor talvez tenha que ser ajustado,ou simplismente reavaliado as verificações do "test
+
+## License
+MIT <https://opensource.org/licenses/MIT>
