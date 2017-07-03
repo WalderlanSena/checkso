@@ -2,7 +2,7 @@
 # CheckSO - Verifique qual SO(Sistema Operacional) está rodando na máquina
 # Version: 0.0.1
 # Developer: Walderlan Sena <eu@walderlan.xyz>
-# License: MIT
+# License: MIT <https://opensource.org/licenses/MIT>
 # Github: WalderlanSena <https://www.github.com/WalderlanSena>
 # Site: Mentes Virtuais Sena <https://www.mentesvirtuaissnea.com>
 
@@ -47,7 +47,10 @@ else
   valorSO=$(ping -c1 $1 | grep -o -e 'ttl=[0-9]*' | sed 's/ttl=//g')   #Captura o valor do retorno do TTL
 
   #Veficação do SO baseando-se no padrão definido acima
-
+  #
+  # Lembrando que a cada vez que um pacote passa por roteador ele decremente 2 no valor do TTL
+  # Sendo assim o valor talvez tenha que ser ajustado,ou simplismente reavaliado as verificações do "test"
+  #
   if [ $valorSO -eq 64  ]
   then
     echo -e "\t[ OK ] Sistema Operacional : aproximadamente - GNU/Linux" 
