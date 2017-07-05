@@ -1,6 +1,11 @@
 <h1 align="center">CheckSO</h1>
 <p align="center">Identifique o SO(Sistema Operacional) da máquina "pingada"</p>
 <hr>
+<p align="center">
+ <a href="#">
+  <img src="https://github.com/WalderlanSena/checkso/blob/master/Exemplo.png">
+ </a>
+</p>
 
 ## :exclamation: Atenção: 
 
